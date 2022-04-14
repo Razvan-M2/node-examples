@@ -1,0 +1,17 @@
+{
+  "name": "cron-jobs",
+  "version": "1.0.0",
+  "description": "a brief cron-job example in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Marc Razvan (razvan98marc@gmail.com)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
